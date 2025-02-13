@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gemspec
 
 gem 'jruby-openssl', :platform => :jruby
-gem 'unicorn', :platforms => [:mri, :rbx]
+gem 'unicorn', '>= 5.1.0', :platforms => [:mri, :rbx]
 gem 'rubysl', '~> 2.0', :platform => :rbx
 gem 'rack', '~> 1.6'
 
